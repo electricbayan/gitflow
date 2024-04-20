@@ -1,0 +1,176 @@
+
+
+------------------------------------------------------------
+Application started
+20:11:08.515: (I)  4944: ice.systeminfo      : OS version: "Windows 10 Version 2009"
+20:11:08.515: (I)  4944: ice.systeminfo      : Kernel version: "10.0.19043"
+20:11:08.515: (I)  4944: ice.systeminfo      : CPU architecture: "x86_64"
+20:11:08.515: (I)  4944: ice.systeminfo      : Build ABI: "x86_64-little_endian-llp64"
+20:11:08.515: (I)  4944: ice.systeminfo      : Executable: "C:/Program Files (x86)/Icecream Video Editor/icevideoeditor.exe"
+20:11:08.515: (I)  4944: ice.systeminfo      : BuildVersion: "2.6.9"
+20:11:08.515: (I)  4944: ice.systeminfo      : DisplayVersion: "2.69"
+20:11:08.515: (I)  4944: ice.systeminfo      : PID: 5888
+20:11:08.519: (I)  4944: ice.systeminfo      : Main thread id: 4944
+20:11:08.519: (I)  4944: ice.systeminfo      : Qt::AA_EnableHighDpiScaling: true
+20:11:08.519: (I)  4944: ice.systeminfo      : Qt::AA_DisableHighDpiScaling: false
+20:11:08.519: (I)  4944: ice.systeminfo      : Qt Screen 0: primary, winScale: 100%, pixelRatio: 1, logDpi: 96, phyDpi: 114.291, log/phy: 84%, geometry: {x:0, y:0, w: 1280, h: 1024}, available: {x:0, y:0, w: 1280, h: 984}
+20:11:08.519: (I)  4944: ice.systeminfo      : 
+20:11:08.520: (I)  4944: ice.translator      : IceTranslator::IceTranslator()          : Translations directory: "C:/Program Files (x86)/Icecream Video Editor/translations" , file prefix: "icevideoeditor" system locale: "ru_RU"
+20:11:08.520: (I)  4944: ice.translator      : IceTranslator::translate()              : App translation applyed. Locale: "ru_RU"
+20:11:08.521: (I)  4944: ice.systeminfo      : IceApplication::showSplash()            : Previously saved screen number: 0
+20:11:08.521: (I)  4944: ice.systeminfo      : IceApplication::showSplash()            : Working geometry: QRect(0,0 1280x1024)
+20:11:08.789: (I)  4944:                     : IceStyleManager::IceStyleManager()      : Init StyleManager done
+20:11:08.789: (I)  4944:                     : IceStyleManager::setCurrentStyle()      : Set current style: "__Style"
+20:11:08.789: (I)  4944:                     : IceStyleManager::setCurrentStyle()      : Default app font was changed to QFont(Segoe UI,-1,14,5,50,0,0,0,0,0)
+20:11:08.789: (I)  4944:                     : Ui::init                                : Entering 'Init UI controller'
+20:11:08.789: (I)  4944:                     : Ui::init                                : Leaving 'Init UI controller'. Elapsed time: 0
+20:11:08.798: (I)  4944: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: begin
+20:11:08.811: (I)  4944: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: done, elapsed time: 13 msec , Enabled: true , Version: "OpenSSL 1.1.1k  25 Mar 2021"
+20:11:08.811: (I)  4944: app.app             : Application::init                       : Entering 'Init app'
+20:11:09.081: (I)  4944:                     : core::dumpCaps()                        :   Hardware DX11 support  : true
+20:11:09.081: (I)  4944:                     : core::dumpCaps()                        :   Video texture support  : true
+20:11:09.081: (I)  4944:                     : core::dumpCaps()                        :   DX9EX support          : true
+20:11:09.081: (I)  4944:                     : core::dumpCaps()                        :   DX9 decoder support    : true
+20:11:09.081: (I)  4944:                     : core::dumpCaps()                        :   DX11 decoder support   : true
+20:11:09.081: (I)  4944:                     : core::dumpCaps()                        :   DirectWrite ex. support: true
+20:11:09.090: (I)  4944:                     : NativeWindowUtils::eventFilter()        :   IceWindow(0x15f1e5d6b50, name="MainWindow") WinId created: 0x2b103da
+20:11:09.091: (I)  4944: ice.windowgeometry  : IceWindow::Private::onScreenChanged()   :   MainWindow(0x15f1e5d6b50) initial pixel ratio: 1 initial screen: QScreen(0x15f17844550, name="\\\\.\\DISPLAY1")
+20:11:09.091: (I)  4944: ice.windowgeometry  : IceWindow::IceWindow()                  :   MainWindow(0x15f1e5d6b50) early restore geometry: true QRect(10,20 1260x964) dpr: 1 QFlags<Qt::WindowState>(WindowMaximized)
+20:11:09.091: (I)  4944: ui.mainwindow       : MainWindow::MainWindow                  :   Entering 'Create main window'
+20:11:09.109: (I)  4944: ui.player           : Player::Player                          :     Entering 'Create player'
+20:11:09.174: (I)  4944:                     : dxresourcemanager::dumpUsage()          :       Total resource allocated: count 0 size 0
+20:11:09.175: (I)  4944:                     : dxresourcemanager::dumpUsage()          :       	default type: count  0 size 0
+20:11:09.175: (I)  4944:                     : dxresourcemanager::dumpUsage()          :       	storage type: count  0 size 0
+20:11:09.175: (I)  4944:                     : dxresourcemanager::dumpUsage()          :       	input type: count  0 size 0
+20:11:09.175: (I)  4944:                     : dxresourcemanager::dumpUsage()          :       In use resources: count 0 size 0
+20:11:09.175: (I)  4944:                     : dxresourcemanager::dumpUsage()          :       	default type: count  0 size 0
+20:11:09.175: (I)  4944:                     : dxresourcemanager::dumpUsage()          :       	storage type: count  0 size 0
+20:11:09.175: (I)  4944:                     : dxresourcemanager::dumpUsage()          :       	input type: count  0 size 0
+20:11:09.180: (I)  4944:                     : playercore::init()                      :       Create mediaprocessor DX device:  "NVIDIA GeForce MX150"
+20:11:09.180: (I)  4944:                     : playercore::init()                      :       Use DX9 decoding engine
+20:11:09.180: (I)  4944:                     : playercore::init()                      :       --- mediaprocessor context ---
+20:11:09.180: (I)  4944:                     : VideoProcessorContext::dumpContextState(:       DX11 device [type 1]: true
+20:11:09.180: (I)  4944:                     : VideoProcessorContext::dumpContextState(:       Effect processor:  true
+20:11:09.180: (I)  4944:                     : VideoProcessorContext::dumpContextState(:       Text processor:  true
+20:11:09.180: (I)  4944:                     : VideoProcessorContext::dumpContextState(:       Video processor:  true
+20:11:09.181: (I)  8068:                     : dxresourcemanager::dumpUsage()          :       Total resource allocated: count 0 size 0
+20:11:09.181: (I)  8068:                     : dxresourcemanager::dumpUsage()          :       	default type: count  0 size 0
+20:11:09.181: (I)  8068:                     : dxresourcemanager::dumpUsage()          :       	storage type: count  0 size 0
+20:11:09.181: (I)  8068:                     : dxresourcemanager::dumpUsage()          :       	input type: count  0 size 0
+20:11:09.181: (I)  8068:                     : dxresourcemanager::dumpUsage()          :       In use resources: count 0 size 0
+20:11:09.181: (I)  8068:                     : dxresourcemanager::dumpUsage()          :       	default type: count  0 size 0
+20:11:09.181: (I)  8068:                     : dxresourcemanager::dumpUsage()          :       	storage type: count  0 size 0
+20:11:09.181: (I)  8068:                     : dxresourcemanager::dumpUsage()          :       	input type: count  0 size 0
+20:11:09.214: (I)  4944:                     : ThumbGenerator::ThumbGenerator()        :       Using 1 background workers
+20:11:09.299: (I)  4944:                     : mediaimporter::mediaimporter()          :       Using 4 background workers
+20:11:09.315: (I)  4944:                     : audiorender::applySettingsFromSink()    :       	setup audio parameters: 
+20:11:09.315: (I)  4944:                     : audiorender::applySettingsFromSink()    :       		bitrate: 48000
+20:11:09.315: (I)  4944:                     : audiorender::applySettingsFromSink()    :       		channel count: 2
+20:11:09.315: (I)  4944:                     : audiorender::applySettingsFromSink()    :       		bits per sample: 32
+20:11:09.315: (I)  4944:                     : audiorender::applySettingsFromSink()    :       		channel mask: 3
+20:11:09.315: (I)  4944:                     : audiorender::applySettingsFromSink()    :       		block size: 8
+20:11:09.323: (I)  4944: ui.player           : Player::Player                          :     Leaving 'Create player'. Elapsed time: 213
+20:11:09.380: (I)  4944: ui.mainwindow       : MainWindow::MainWindow                  :   Leaving 'Create main window'. Elapsed time: 289
+20:11:09.383: (W)  4944:                     : LicenseService::loadLicenseInfo()       :   License file not found: "C:\\Users\\66964\\AppData\\Local\\Icecream\\Icecream Video Editor\\license.lic"
+20:11:09.383: (I)  4944: app.app             : Application::init                       : Leaving 'Init app'. Elapsed time: 571
+20:11:09.383: (I)  4944: app.app             : CommandLineParser::parseRunFromInstaller: Run from installer: false
+20:11:09.383: (I)  4944: app.app             : Application::restoreLastSession         : Entering 'Restore last session'
+20:11:09.383: (I)  4944: app.documentsstorage: DocumentsStorage::loadDocuments()       :   Load docs from: "C:\\Users\\66964\\AppData\\Roaming\\Icecream\\Icecream Video Editor\\documents_v3"
+20:11:09.383: (I)  4944:                     : DocumentsStorage::loadDocuments::lambda(:   processing documents path: "C:/Users/66964/AppData/Roaming/Icecream/Icecream Video Editor/documents_v3"
+20:11:09.386: (I)  4944: app.app             : Application::setCurrentDocument         :   Entering 'Change document'
+20:11:09.387: (I)  8240: app.app             : Application::setCurrentDocument::lambda(:     Entering 'Load new doc fufure'
+20:11:09.388: (I)  8240: app.app             : Application::setCurrentDocument::lambda(:     Leaving 'Load new doc fufure'. Elapsed time: 1
+20:11:09.389: (I)  4944: app.app             : Application::setCurrentDocument()       :     New document loaded. Notify documentChanged()
+20:11:09.389: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for QObject'
+20:11:09.389: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke QObject->onDocumentChanged()
+20:11:09.389: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for QObject'. Elapsed time: 0
+20:11:09.389: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MainWindow'
+20:11:09.389: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocumentChanged()
+20:11:09.389: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocGraphicalDurationChanged()
+20:11:09.389: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocTotalDurationChanged()
+20:11:09.389: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocAspectRatioChanged()
+20:11:09.389: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MainWindow'. Elapsed time: 0
+20:11:09.389: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for QObject'
+20:11:09.389: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke QObject->onDocumentChanged()
+20:11:09.389: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for QObject'. Elapsed time: 0
+20:11:09.389: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for PlayerWidget'
+20:11:09.389: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocumentChanged()
+20:11:09.389: (I)  4944:                     : playercore::onDocumentChanged()         :       Player about to change mediaprocessor doc:  Doc(Мой проект 1, {b0aa0b4b-b8...)
+20:11:09.389: (I)  4944:                     : mediaprocessor::setDocument()           :       Enter mediaprocessor setDocument():  Doc(Мой проект 1, {b0aa0b4b-b8...)
+20:11:09.389: (I)  4944:                     : audioprocessor::setDocument()           :       audioprocessor setDocument():  Doc(Мой проект 1, {b0aa0b4b-b8...)
+20:11:09.389: (I)  4944:                     : mediaprocessor::setDocument()           :       Process setDocument()
+20:11:09.389: (I)  4944:                     : mediaprocessor::setDocument()           :       Leave mediaprocessor setDocument()
+20:11:09.390: (I)  4944:                     : Player::updateSlider                    :       Entering 'Change slider params (Document changed)'
+20:11:09.390: (I)  4944: ui.player           : Player::updateSlider()                  :         Current:   "Range: [00:00..00:00.099], Value: 00:00"
+20:11:09.390: (I)  4944: ui.player           : Player::updateSlider()                  :         Apply new: "Range: [00:00..00:00], Value: 00:00" Animate: true
+20:11:09.391: (I)  4944:                     : Player::updateSlider                    :       Leaving 'Change slider params (Document changed)'. Elapsed time: 1
+20:11:09.391: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocGraphicalDurationChanged()
+20:11:09.391: (I)  4944:                     : Player::updateSlider()                  :       Slider params are not changed "Range: [00:00..00:00], Value: 00:00"
+20:11:09.391: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocTotalDurationChanged()
+20:11:09.391: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocAspectRatioChanged()
+20:11:09.391: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for PlayerWidget'. Elapsed time: 2
+20:11:09.391: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for TimelineWidget'
+20:11:09.392: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocumentChanged()
+20:11:09.392: (I)  8068:                     : dxresourcemanager::dumpUsage()          :       Total resource allocated: count 0 size 0
+20:11:09.392: (I)  4944: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Entering 'Timeline: document change'
+20:11:09.392: (I)  8068:                     : dxresourcemanager::dumpUsage()          :       	default type: count  0 size 0
+20:11:09.392: (I)  8068:                     : dxresourcemanager::dumpUsage()          :         	storage type: count  0 size 0
+20:11:09.392: (I)  8068:                     : dxresourcemanager::dumpUsage()          :         	input type: count  0 size 0
+20:11:09.392: (I)  8068:                     : dxresourcemanager::dumpUsage()          :         In use resources: count 0 size 0
+20:11:09.392: (I)  8068:                     : dxresourcemanager::dumpUsage()          :         	default type: count  0 size 0
+20:11:09.392: (I)  8068:                     : dxresourcemanager::dumpUsage()          :         	storage type: count  0 size 0
+20:11:09.392: (I)  8068:                     : dxresourcemanager::dumpUsage()          :         	input type: count  0 size 0
+20:11:09.392: (I)  4944: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged(:         Clips loaded
+20:11:09.392: (I)  4944: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Leaving 'Timeline: document change'. Elapsed time: 0
+20:11:09.392: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocGraphicalDurationChanged()
+20:11:09.392: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocTotalDurationChanged()
+20:11:09.392: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocAspectRatioChanged()
+20:11:09.392: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for TimelineWidget'. Elapsed time: 0
+20:11:09.392: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MyVideosLibrary'
+20:11:09.392: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MyVideosLibrary->onDocumentChanged()
+20:11:09.392: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MyVideosLibrary'. Elapsed time: 0
+20:11:09.392: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for ClipPropertiesPage'
+20:11:09.392: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocumentChanged()
+20:11:09.392: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocAspectRatioChanged()
+20:11:09.392: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for ClipPropertiesPage'. Elapsed time: 0
+20:11:09.392: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for PipPage'
+20:11:09.392: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PipPage->onDocumentChanged()
+20:11:09.393: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for PipPage'. Elapsed time: 0
+20:11:09.393: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for StickersPage'
+20:11:09.393: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke StickersPage->onDocumentChanged()
+20:11:09.393: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for StickersPage'. Elapsed time: 0
+20:11:09.393: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for QObject'
+20:11:09.393: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke QObject->onDocumentChanged()
+20:11:09.393: (I)  4944: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for QObject'. Elapsed time: 0
+20:11:09.393: (I)  4944: app.app             : Application::setCurrentDocument         :   Leaving 'Change document'. Elapsed time: 6
+20:11:09.393: (I)  4944: app.app             : Application::restoreLastSession         : Leaving 'Restore last session'. Elapsed time: 9
+20:11:10.535: (I)  4944: ice.splash          : IceSplash::Private::onMinDurationReached: Splash min wait time is reached and app is ready. Show existing mainWindow or create it
+20:11:10.535: (I)  4944: ice.splash          : IceSplash::Private::onMinDurationReached: Main window already exists. Finish splash using MainWindow(0x15f1e5d6b50)
+20:11:10.539: (I)  4944:                     : WinApi::maybeFixDwmNewQtWmNccalcsize()  : Custom margins applyed for QWindow QWidgetWindow(0x15f1e269f00, name="MainWindowWindow") QMargins(-8, -31, -8, -8) caption 23 dpr 1
+20:11:10.540: (I)  4944:                     : WinApi::maybeFixDwmNewQtWmNccalcsize()  : Custom margins are applyed for existing QPlatformWindow 0x15f1e3277d0 QMargins(-8, -31, -8, -8) caption 23 dpr 1
+20:11:14.377: (I)  4944: ice.updater         : IceUpdateChecker::checkForUpdates()     : Get actual version number from "http://updates.icecreamapps.com/check.php?ver=2.69&pid=9&mh=cc64fb81f96137bba7ecc8c6b807bf62&h=14869f53f61b4513c8a672fe483956c3"
+20:11:14.712: (W) 10148: qt.network.monitor  : Could not get the INetworkConnection instance for the adapter GUID.
+20:11:14.961: (I)  4944: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Server response: "2.70"
+20:11:14.961: (I)  4944: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Compare versions.  server version: "2.70" current version: 2.69 result: 1
+20:11:14.961: (I)  4944: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Emit newVersionAvalible: "2.70"
+20:11:14.961: (I)  4944: ice.updater         : IceApplication::initUpdateChecker::lambd: Question about "2.70" was already shown
+20:15:36.182: (I)  4944: ui.mainwindow       : MainWindow::~MainWindow                 : Entering 'Delete main window'
+20:15:36.182: (I)  4944: ui.mainwindow       : MainWindow::~MainWindow                 : Leaving 'Delete main window'. Elapsed time: 0
+20:15:36.185: (I)  4944: ui.player           : Player::~Player                         : Entering 'Delete player'
+20:15:36.186: (I)  4944: ui.player           : Player::~Player                         : Leaving 'Delete player'. Elapsed time: 0
+20:15:36.218: (I)  4944:                     : dxresourcemanager::dumpUsage()          : Total resource allocated: count 0 size 0
+20:15:36.218: (I)  4944:                     : dxresourcemanager::dumpUsage()          : 	default type: count  0 size 0
+20:15:36.218: (I)  4944:                     : dxresourcemanager::dumpUsage()          : 	storage type: count  0 size 0
+20:15:36.218: (I)  4944:                     : dxresourcemanager::dumpUsage()          : 	input type: count  0 size 0
+20:15:36.218: (I)  4944:                     : dxresourcemanager::dumpUsage()          : In use resources: count 0 size 0
+20:15:36.218: (I)  4944:                     : dxresourcemanager::dumpUsage()          : 	default type: count  0 size 0
+20:15:36.218: (I)  4944:                     : dxresourcemanager::dumpUsage()          : 	storage type: count  0 size 0
+20:15:36.218: (I)  4944:                     : dxresourcemanager::dumpUsage()          : 	input type: count  0 size 0
+20:15:36.233: (I)  4944: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {b0aa0b4b-b8b6-4582-a006-3d26bfadd7b4}'
+20:15:36.234: (I)  4944: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {b0aa0b4b-b8b6-4582-a006-3d26bfadd7b4}'. Elapsed time: 0
+20:15:36.234: (I)  4944:                     : mediaimporter::~mediaimporter()         : Wait mediaimporter to release resources in 0 ms
+20:15:36.240: (I)  4944:                     : ThumbGenerator::~ThumbGenerator()       : Wait thumbgenerator to release resources in 0 ms
+20:15:36.240: (I)  4944:                     : ThumbGenerator::freeResources()         : Release thumbnail generator resources
+20:15:36.451: (I)  4944:                     : Application::~Application()             : App finished normally
+20:15:36.451: (I)  4944: ice.application     : IceApplication::~IceApplication()       : App is finished normally.
+20:15:36.473: (I)  4944:                     : MinHookHelper::~MinHookHelper()         : MH_Uninitialize OK

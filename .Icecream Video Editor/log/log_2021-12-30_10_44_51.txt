@@ -1,0 +1,441 @@
+
+
+------------------------------------------------------------
+Application started
+10:44:51.603: (I) 12492: ice.systeminfo      : OS version: "Windows 10 Version 2009"
+10:44:51.603: (I) 12492: ice.systeminfo      : Kernel version: "10.0.19043"
+10:44:51.603: (I) 12492: ice.systeminfo      : CPU architecture: "x86_64"
+10:44:51.603: (I) 12492: ice.systeminfo      : Build ABI: "x86_64-little_endian-llp64"
+10:44:51.603: (I) 12492: ice.systeminfo      : Executable: "C:/Program Files (x86)/Icecream Video Editor/icevideoeditor.exe"
+10:44:51.603: (I) 12492: ice.systeminfo      : BuildVersion: "2.6.9"
+10:44:51.603: (I) 12492: ice.systeminfo      : DisplayVersion: "2.69"
+10:44:51.603: (I) 12492: ice.systeminfo      : PID: 1720
+10:44:51.603: (I) 12492: ice.systeminfo      : Main thread id: 12492
+10:44:51.603: (I) 12492: ice.systeminfo      : Qt::AA_EnableHighDpiScaling: true
+10:44:51.603: (I) 12492: ice.systeminfo      : Qt::AA_DisableHighDpiScaling: false
+10:44:51.603: (I) 12492: ice.systeminfo      : Qt Screen 0: primary, winScale: 100%, pixelRatio: 1, logDpi: 96, phyDpi: 114.291, log/phy: 84%, geometry: {x:0, y:0, w: 1280, h: 1024}, available: {x:0, y:0, w: 1280, h: 984}
+10:44:51.603: (I) 12492: ice.systeminfo      : 
+10:44:51.603: (I) 12492: ice.translator      : IceTranslator::IceTranslator()          : Translations directory: "C:/Program Files (x86)/Icecream Video Editor/translations" , file prefix: "icevideoeditor" system locale: "ru_RU"
+10:44:51.618: (I) 12492: ice.translator      : IceTranslator::translate()              : App translation applyed. Locale: "ru_RU"
+10:44:51.618: (I) 12492: ice.systeminfo      : IceApplication::showSplash()            : Previously saved screen number: 0
+10:44:51.618: (I) 12492: ice.systeminfo      : IceApplication::showSplash()            : Working geometry: QRect(0,0 1280x1024)
+10:44:52.118: (I) 12492:                     : IceStyleManager::IceStyleManager()      : Init StyleManager done
+10:44:52.118: (I) 12492:                     : IceStyleManager::setCurrentStyle()      : Set current style: "__Style"
+10:44:52.118: (I) 12492:                     : IceStyleManager::setCurrentStyle()      : Default app font was changed to QFont(Segoe UI,-1,14,5,50,0,0,0,0,0)
+10:44:52.118: (I) 12492:                     : Ui::init                                : Entering 'Init UI controller'
+10:44:52.118: (I) 12492:                     : Ui::init                                : Leaving 'Init UI controller'. Elapsed time: 0
+10:44:52.134: (I) 12492: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: begin
+10:44:52.193: (I) 12492: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: done, elapsed time: 44 msec , Enabled: true , Version: "OpenSSL 1.1.1k  25 Mar 2021"
+10:44:52.193: (I) 12492: app.app             : Application::init                       : Entering 'Init app'
+10:44:53.990: (I) 12492:                     : core::dumpCaps()                        :   Hardware DX11 support  : true
+10:44:53.990: (I) 12492:                     : core::dumpCaps()                        :   Video texture support  : true
+10:44:53.990: (I) 12492:                     : core::dumpCaps()                        :   DX9EX support          : true
+10:44:53.990: (I) 12492:                     : core::dumpCaps()                        :   DX9 decoder support    : true
+10:44:53.990: (I) 12492:                     : core::dumpCaps()                        :   DX11 decoder support   : true
+10:44:53.990: (I) 12492:                     : core::dumpCaps()                        :   DirectWrite ex. support: true
+10:44:53.999: (I) 12492:                     : NativeWindowUtils::eventFilter()        :   IceWindow(0x2b476280cc0, name="MainWindow") WinId created: 0x30332
+10:44:53.999: (I) 12492: ice.windowgeometry  : IceWindow::Private::onScreenChanged()   :   MainWindow(0x2b476280cc0) initial pixel ratio: 1 initial screen: QScreen(0x2b46f4639b0, name="\\\\.\\DISPLAY1")
+10:44:54.000: (I) 12492: ice.windowgeometry  : IceWindow::IceWindow()                  :   MainWindow(0x2b476280cc0) early restore geometry: true QRect(10,20 1260x964) dpr: 1 QFlags<Qt::WindowState>(WindowMaximized)
+10:44:54.002: (I) 12492: ui.mainwindow       : MainWindow::MainWindow                  :   Entering 'Create main window'
+10:44:54.031: (I) 12492: ice.splash          : IceSplash::Private::onMinDurationReached:     Splash min wait time is reached and app is ready. Show existing mainWindow or create it
+10:44:54.031: (I) 12492: ice.splash          : IceSplash::Private::onMinDurationReached:     Main window still not exists
+10:44:54.032: (I) 12492: ui.player           : Player::Player                          :     Entering 'Create player'
+10:44:54.098: (I) 12492:                     : dxresourcemanager::dumpUsage()          :       Total resource allocated: count 0 size 0
+10:44:54.098: (I) 12492:                     : dxresourcemanager::dumpUsage()          :       	default type: count  0 size 0
+10:44:54.098: (I) 12492:                     : dxresourcemanager::dumpUsage()          :       	storage type: count  0 size 0
+10:44:54.098: (I) 12492:                     : dxresourcemanager::dumpUsage()          :       	input type: count  0 size 0
+10:44:54.098: (I) 12492:                     : dxresourcemanager::dumpUsage()          :       In use resources: count 0 size 0
+10:44:54.098: (I) 12492:                     : dxresourcemanager::dumpUsage()          :       	default type: count  0 size 0
+10:44:54.098: (I) 12492:                     : dxresourcemanager::dumpUsage()          :       	storage type: count  0 size 0
+10:44:54.098: (I) 12492:                     : dxresourcemanager::dumpUsage()          :       	input type: count  0 size 0
+10:44:54.108: (I) 12492:                     : playercore::init()                      :       Create mediaprocessor DX device:  "NVIDIA GeForce MX150"
+10:44:54.108: (I) 12492:                     : playercore::init()                      :       Use DX9 decoding engine
+10:44:54.108: (I) 12492:                     : playercore::init()                      :       --- mediaprocessor context ---
+10:44:54.108: (I) 12492:                     : VideoProcessorContext::dumpContextState(:       DX11 device [type 1]: true
+10:44:54.108: (I) 12492:                     : VideoProcessorContext::dumpContextState(:       Effect processor:  true
+10:44:54.108: (I) 12492:                     : VideoProcessorContext::dumpContextState(:       Text processor:  true
+10:44:54.108: (I) 12492:                     : VideoProcessorContext::dumpContextState(:       Video processor:  true
+10:44:54.108: (I) 11912:                     : dxresourcemanager::dumpUsage()          :       Total resource allocated: count 0 size 0
+10:44:54.108: (I) 11912:                     : dxresourcemanager::dumpUsage()          :       	default type: count  0 size 0
+10:44:54.108: (I) 11912:                     : dxresourcemanager::dumpUsage()          :       	storage type: count  0 size 0
+10:44:54.108: (I) 11912:                     : dxresourcemanager::dumpUsage()          :       	input type: count  0 size 0
+10:44:54.109: (I) 11912:                     : dxresourcemanager::dumpUsage()          :       In use resources: count 0 size 0
+10:44:54.109: (I) 11912:                     : dxresourcemanager::dumpUsage()          :       	default type: count  0 size 0
+10:44:54.109: (I) 11912:                     : dxresourcemanager::dumpUsage()          :       	storage type: count  0 size 0
+10:44:54.109: (I) 11912:                     : dxresourcemanager::dumpUsage()          :       	input type: count  0 size 0
+10:44:54.139: (I) 12492:                     : ThumbGenerator::ThumbGenerator()        :       Using 1 background workers
+10:44:54.219: (I) 12492:                     : mediaimporter::mediaimporter()          :       Using 4 background workers
+10:44:54.263: (I) 12492:                     : audiorender::applySettingsFromSink()    :       	setup audio parameters: 
+10:44:54.263: (I) 12492:                     : audiorender::applySettingsFromSink()    :       		bitrate: 48000
+10:44:54.263: (I) 12492:                     : audiorender::applySettingsFromSink()    :       		channel count: 2
+10:44:54.263: (I) 12492:                     : audiorender::applySettingsFromSink()    :       		bits per sample: 32
+10:44:54.264: (I) 12492:                     : audiorender::applySettingsFromSink()    :       		channel mask: 3
+10:44:54.264: (I) 12492:                     : audiorender::applySettingsFromSink()    :       		block size: 8
+10:44:54.300: (I) 12492: ui.player           : Player::Player                          :     Leaving 'Create player'. Elapsed time: 268
+10:44:54.379: (I) 12492: ui.mainwindow       : MainWindow::MainWindow                  :   Leaving 'Create main window'. Elapsed time: 376
+10:44:54.381: (I) 12492: ice.splash          : IceSplash::setMainWindowIsReady()       :   Main window was created. Finish splash using MainWindow(0x2b476280cc0)
+10:44:54.383: (I) 12492:                     : WinApi::maybeFixDwmNewQtWmNccalcsize()  :   Custom margins applyed for QWindow QWidgetWindow(0x2b474030420, name="MainWindowWindow") QMargins(-8, -31, -8, -8) caption 23 dpr 1
+10:44:54.383: (I) 12492:                     : WinApi::maybeFixDwmNewQtWmNccalcsize()  :   Custom margins are applyed for existing QPlatformWindow 0x2b475fd75c0 QMargins(-8, -31, -8, -8) caption 23 dpr 1
+10:44:54.439: (W) 12492:                     : LicenseService::loadLicenseInfo()       :   License file not found: "C:\\Users\\66964\\AppData\\Local\\Icecream\\Icecream Video Editor\\license.lic"
+10:44:54.440: (I) 12492: app.app             : Application::init                       : Leaving 'Init app'. Elapsed time: 2246
+10:44:54.440: (I) 12492: app.app             : CommandLineParser::parseRunFromInstaller: Run from installer: false
+10:44:54.440: (I) 12492: app.app             : Application::restoreLastSession         : Entering 'Restore last session'
+10:44:54.440: (I) 12492: app.documentsstorage: DocumentsStorage::loadDocuments()       :   Load docs from: "C:\\Users\\66964\\AppData\\Roaming\\Icecream\\Icecream Video Editor\\documents_v3"
+10:44:54.440: (I) 12492:                     : DocumentsStorage::loadDocuments::lambda(:   processing documents path: "C:/Users/66964/AppData/Roaming/Icecream/Icecream Video Editor/documents_v3"
+10:44:54.445: (I) 12492: app.app             : Application::setCurrentDocument         :   Entering 'Change document'
+10:44:54.445: (I)  6000: app.app             : Application::setCurrentDocument::lambda(:     Entering 'Load new doc fufure'
+10:44:54.447: (I)  6000: app.app             : Application::setCurrentDocument::lambda(:     Leaving 'Load new doc fufure'. Elapsed time: 1
+10:44:54.447: (I) 12492: app.app             : Application::setCurrentDocument()       :     New document loaded. Notify documentChanged()
+10:44:54.447: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for QObject'
+10:44:54.447: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke QObject->onDocumentChanged()
+10:44:54.447: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for QObject'. Elapsed time: 0
+10:44:54.447: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MainWindow'
+10:44:54.447: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocumentChanged()
+10:44:54.447: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocGraphicalDurationChanged()
+10:44:54.447: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocTotalDurationChanged()
+10:44:54.447: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocAspectRatioChanged()
+10:44:54.447: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MainWindow'. Elapsed time: 0
+10:44:54.447: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for QObject'
+10:44:54.447: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke QObject->onDocumentChanged()
+10:44:54.447: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for QObject'. Elapsed time: 0
+10:44:54.447: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for PlayerWidget'
+10:44:54.447: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocumentChanged()
+10:44:54.447: (I) 12492:                     : playercore::onDocumentChanged()         :       Player about to change mediaprocessor doc:  Doc(Мой проект 1, {b0aa0b4b-b8...)
+10:44:54.447: (I) 12492:                     : mediaprocessor::setDocument()           :       Enter mediaprocessor setDocument():  Doc(Мой проект 1, {b0aa0b4b-b8...)
+10:44:54.447: (I) 12492:                     : audioprocessor::setDocument()           :       audioprocessor setDocument():  Doc(Мой проект 1, {b0aa0b4b-b8...)
+10:44:54.447: (I) 12492:                     : mediaprocessor::setDocument()           :       Process setDocument()
+10:44:54.447: (I) 12492:                     : mediaprocessor::setDocument()           :       Leave mediaprocessor setDocument()
+10:44:54.447: (I) 12492:                     : Player::updateSlider                    :       Entering 'Change slider params (Document changed)'
+10:44:54.447: (I) 12492: ui.player           : Player::updateSlider()                  :         Current:   "Range: [00:00..00:00.099], Value: 00:00"
+10:44:54.448: (I) 12492: ui.player           : Player::updateSlider()                  :         Apply new: "Range: [00:00..00:07.927], Value: 00:00" Animate: true
+10:44:54.448: (I) 11912:                     : mediaprocessor::runVideo()              :         change decoding engine to:  Decoding::Dx9
+10:44:54.449: (I) 12492:                     : Player::updateSlider                    :       Leaving 'Change slider params (Document changed)'. Elapsed time: 1
+10:44:54.449: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocGraphicalDurationChanged()
+10:44:54.449: (I) 12492:                     : Player::updateSlider()                  :       Slider params are not changed "Range: [00:00..00:07.927], Value: 00:00"
+10:44:54.450: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocTotalDurationChanged()
+10:44:54.450: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocAspectRatioChanged()
+10:44:54.450: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for PlayerWidget'. Elapsed time: 2
+10:44:54.450: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for TimelineWidget'
+10:44:54.450: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocumentChanged()
+10:44:54.450: (I) 12492: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Entering 'Timeline: document change'
+10:44:54.451: (I) 12492: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged(:         Clips loaded
+10:44:54.451: (I) 12492: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Leaving 'Timeline: document change'. Elapsed time: 1
+10:44:54.451: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocGraphicalDurationChanged()
+10:44:54.451: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocTotalDurationChanged()
+10:44:54.451: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocAspectRatioChanged()
+10:44:54.451: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for TimelineWidget'. Elapsed time: 1
+10:44:54.451: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MyVideosLibrary'
+10:44:54.451: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MyVideosLibrary->onDocumentChanged()
+10:44:54.451: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MyVideosLibrary'. Elapsed time: 0
+10:44:54.451: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for ClipPropertiesPage'
+10:44:54.451: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocumentChanged()
+10:44:54.451: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocAspectRatioChanged()
+10:44:54.451: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for ClipPropertiesPage'. Elapsed time: 0
+10:44:54.451: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for PipPage'
+10:44:54.451: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PipPage->onDocumentChanged()
+10:44:54.452: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for PipPage'. Elapsed time: 0
+10:44:54.452: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for StickersPage'
+10:44:54.452: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke StickersPage->onDocumentChanged()
+10:44:54.452: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for StickersPage'. Elapsed time: 0
+10:44:54.452: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for QObject'
+10:44:54.452: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke QObject->onDocumentChanged()
+10:44:54.452: (I) 12492: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for QObject'. Elapsed time: 0
+10:44:54.452: (I) 12492: app.app             : Application::setCurrentDocument         :   Leaving 'Change document'. Elapsed time: 7
+10:44:54.452: (I) 12492: app.app             : Application::restoreLastSession         : Leaving 'Restore last session'. Elapsed time: 12
+10:44:54.453: (I)  8408:                     : main::lambda()                          : run preview cache storage check...
+10:44:54.453: (I)  8408:                     : main::lambda()                          : preview cache storage check done
+10:44:54.453: (I) 12492:                     : MainWindow::onMainClipChanged           : Entering 'Selected clip changed'
+10:44:54.453: (I) 12492: ui.mainwindow       : MainWindow::onMainClipChanged()         :   New selection is DocClip(Video 9f405a, pos: 00:00,  end: 00:07.927)
+10:44:54.456: (I) 12492: ui.proprerties      : ClipPropertiesWidget::setDocClip()      :   ClipProperties: change clip to DocClip(Video 9f405a, pos: 00:00,  end: 00:07.927)
+10:44:54.456: (I) 12492:                     : Player::setSelectedDocClip              :   Entering 'Change selected clip. New: DocClip(Video 9f405a, pos: 00:00,  end: 00:07.927), Prev: nullptr'
+10:44:54.456: (I) 12492:                     : Player::updateClipsState                :     Entering 'Update clips state'
+10:44:54.456: (I) 12492:                     : mediaprocessor::setMode()               :       set mode ""
+10:44:54.456: (I) 12492:                     : Player::updateSlider()                  :       Slider params are not changed "Range: [00:00..00:07.927], Value: 00:00"
+10:44:54.456: (I) 12492:                     : Player::updateClipsState                :     Leaving 'Update clips state'. Elapsed time: 0
+10:44:54.456: (I) 12492:                     : Player::setSelectedDocClip              :   Leaving 'Change selected clip. New: DocClip(Video 9f405a, pos: 00:00,  end: 00:07.927), Prev: nullptr'. Elapsed time: 0
+10:44:54.456: (I) 12492:                     : MainWindow::onMainClipChanged           : Leaving 'Selected clip changed'. Elapsed time: 2
+10:44:54.459: (I) 12492: ui.thumbcache       : Ui::thumbCache()                        : Simple cache limit: 10240 Mb
+10:44:54.459: (I) 12492: ui.thumbcache       : Ui::thumbCache()                        : Source cache limit: 102400 Mb
+10:44:54.459: (I) 12492: ui.thumbcache       : Ui::thumbCache()                        : Scaled cache limit: 51200 Mb
+10:44:54.472: (W) 12492: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/66964/Downloads/HOROSHIYAGNI_Devochka_Anime.mp3"
+10:44:54.564: (I) 12076:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/66964/Videos/2021-12-29 14-35-41.mp4"
+10:44:54.599: (I) 11912:                     : dxresourcemanager::dumpUsage()          : Total resource allocated: count 0 size 0
+10:44:54.599: (I) 11912:                     : dxresourcemanager::dumpUsage()          : 	default type: count  0 size 0
+10:44:54.599: (I) 11912:                     : dxresourcemanager::dumpUsage()          : 	storage type: count  0 size 0
+10:44:54.599: (I) 11912:                     : dxresourcemanager::dumpUsage()          : 	input type: count  0 size 0
+10:44:54.599: (I) 11912:                     : dxresourcemanager::dumpUsage()          : In use resources: count 0 size 0
+10:44:54.599: (I) 11912:                     : dxresourcemanager::dumpUsage()          : 	default type: count  0 size 0
+10:44:54.599: (I) 11912:                     : dxresourcemanager::dumpUsage()          : 	storage type: count  0 size 0
+10:44:54.599: (I) 11912:                     : dxresourcemanager::dumpUsage()          : 	input type: count  0 size 0
+10:44:54.639: (I) 12076:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/66964/Desktop/музыка для видео/semmmyq_Shinra_-_untitled_(musmore.com).mp3"
+10:44:54.958: (I) 11912:                     : dxresourcemanager::dumpUsage()          : Total resource allocated: count 3 size 6220800
+10:44:54.958: (I) 11912:                     : dxresourcemanager::dumpUsage()          : 	default type: count  3 size 6220800
+10:44:54.958: (I) 11912:                     : dxresourcemanager::dumpUsage()          : 	storage type: count  0 size 0
+10:44:54.958: (I) 11912:                     : dxresourcemanager::dumpUsage()          : 	input type: count  0 size 0
+10:44:54.958: (I) 11912:                     : dxresourcemanager::dumpUsage()          : In use resources: count 1 size 2073600
+10:44:54.958: (I) 11912:                     : dxresourcemanager::dumpUsage()          : 	default type: count  1 size 2073600
+10:44:54.958: (I) 11912:                     : dxresourcemanager::dumpUsage()          : 	storage type: count  0 size 0
+10:44:54.958: (I) 11912:                     : dxresourcemanager::dumpUsage()          : 	input type: count  0 size 0
+10:44:59.439: (I) 12492: ice.updater         : IceUpdateChecker::checkForUpdates()     : Get actual version number from "http://updates.icecreamapps.com/check.php?ver=2.69&pid=9&mh=cc64fb81f96137bba7ecc8c6b807bf62&h=14869f53f61b4513c8a672fe483956c3"
+10:44:59.910: (W)  2704: qt.network.monitor  : Could not get the INetworkConnection instance for the adapter GUID.
+10:45:00.073: (I) 12492: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Server response: "2.69"
+10:45:00.073: (I) 12492: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Compare versions.  server version: "2.69" current version: 2.69 result: 0
+10:45:04.291: (I) 12492: ui.player           : Player::onPlay()                        : Play: Clock: 00:00Slider: Range: [00:00..00:07.927], Value: 00:00, State: Player::Paused, Doc: Doc(??? ?????? 1, {b0aa0b4b-b8...)
+10:45:04.294: (I) 11912:                     : dxresourcemanager::dumpUsage()          : Total resource allocated: count 4 size 8294400
+10:45:04.294: (I) 11912:                     : dxresourcemanager::dumpUsage()          : 	default type: count  3 size 6220800
+10:45:04.294: (I) 11912:                     : dxresourcemanager::dumpUsage()          : 	storage type: count  1 size 2073600
+10:45:04.294: (I) 11912:                     : dxresourcemanager::dumpUsage()          : 	input type: count  0 size 0
+10:45:04.294: (I) 11912:                     : dxresourcemanager::dumpUsage()          : In use resources: count 1 size 2073600
+10:45:04.294: (I) 11912:                     : dxresourcemanager::dumpUsage()          : 	default type: count  1 size 2073600
+10:45:04.294: (I) 11912:                     : dxresourcemanager::dumpUsage()          : 	storage type: count  0 size 0
+10:45:04.294: (I) 11912:                     : dxresourcemanager::dumpUsage()          : 	input type: count  0 size 0
+10:45:09.115: (I) 12492: ui.player           : Player::onPause()                       : Pause: Clock: 00:04.67104511Slider: Range: [00:00..00:07.927], Value: 00:04.66808469, State: Player::Playing, Doc: Doc(??? ?????? 1, {b0aa0b4b-b8...)
+10:45:12.089: (I) 12492:                     : MainWindow::onMainClipChanged           : Entering 'Selected clip changed'
+10:45:12.089: (I) 12492: ui.mainwindow       : MainWindow::onMainClipChanged()         :   New selection is DocClip(Audio c001fa, pos: 00:00,  end: 00:09.013)
+10:45:12.089: (I) 12492: ui.proprerties      : ClipPropertiesWidget::setDocClip()      :   ClipProperties: change clip to DocClip(Audio c001fa, pos: 00:00,  end: 00:09.013)
+10:45:12.089: (I) 12492:                     : Player::setSelectedDocClip              :   Entering 'Change selected clip. New: DocClip(Audio c001fa, pos: 00:00,  end: 00:09.013), Prev: DocClip(Video 9f405a, pos: 00:00,  end: 00:07.927)'
+10:45:12.089: (I) 12492:                     : Player::updateClipsState                :     Entering 'Update clips state'
+10:45:12.089: (I) 12492:                     : mediaprocessor::setMode()               :       set mode ""
+10:45:12.089: (I) 12492:                     : Player::updateSlider()                  :       Slider params are not changed "Range: [00:00..00:07.927], Value: 00:04.66606620"
+10:45:12.089: (I) 12492:                     : Player::updateClipsState                :     Leaving 'Update clips state'. Elapsed time: 0
+10:45:12.089: (I) 12492:                     : Player::setSelectedDocClip              :   Leaving 'Change selected clip. New: DocClip(Audio c001fa, pos: 00:00,  end: 00:09.013), Prev: DocClip(Video 9f405a, pos: 00:00,  end: 00:07.927)'. Elapsed time: 0
+10:45:12.089: (I) 12492:                     : MainWindow::onMainClipChanged           : Leaving 'Selected clip changed'. Elapsed time: 1
+10:45:12.089: (I) 12492:                     : NativeWindowUtils::eventFilter()        : IceWindow(0x2b47bd281e0) WinId created: 0x402ac
+10:45:12.089: (I) 12492: ice.windowgeometry  : IceWindow::Private::onScreenChanged()   : IceWindow(0x2b47bd281e0) initial pixel ratio: 1 initial screen: QScreen(0x2b46f4639b0, name="\\\\.\\DISPLAY1")
+10:45:13.971: (I) 12492:                     : Player::onMainWindowPageChanged         : Entering 'Change player mode. New: Trim, Prev: Normal'
+10:45:13.972: (I) 12492:                     : Player::updateClipsState                :   Entering 'Update clips state'
+10:45:13.972: (I) 12492:                     : mediaprocessor::setMode()               :     set mode "{c001fa68-586e-42e2-93b0-c27a50785920}"
+10:45:13.972: (I) 12492:                     : Player::updateSlider                    :     Entering 'Change slider params (Apply ClipToUse)'
+10:45:13.972: (I) 12492: ui.player           : Player::updateSlider()                  :       Current:   "Range: [00:00..00:07.927], Value: 00:00"
+10:45:13.972: (I) 12492: ui.player           : Player::updateSlider()                  :       Apply new: "Range: [-00:37.034..02:30.290], Trim: [00:00..00:09.013], Value: 00:00" Animate: false
+10:45:13.974: (I) 12492:                     : Player::updateSlider                    :     Leaving 'Change slider params (Apply ClipToUse)'. Elapsed time: 1
+10:45:13.974: (I) 12492:                     : Player::updateClipsState                :   Leaving 'Update clips state'. Elapsed time: 2
+10:45:13.974: (I) 12492:                     : Player::onMainWindowPageChanged         : Leaving 'Change player mode. New: Trim, Prev: Normal'. Elapsed time: 2
+10:45:13.993: (I) 12076:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/66964/Desktop/музыка для видео/semmmyq_Shinra_-_untitled_(musmore.com).mp3"
+10:45:30.787: (I) 12492:                     : Player::onMainWindowPageChanged         : Entering 'Change player mode. New: Normal, Prev: Trim'
+10:45:30.787: (I) 12492: ui.player           : Player::maybeWriteTrim()                :   Request write trim changes into clip: [00:38.405..02:19.905] DocClip(Audio c001fa, pos: 00:00,  end: 00:09.013)
+10:45:30.787: (I) 12492:                     : Player::updateClipsState                :   Entering 'Update clips state'
+10:45:30.788: (I) 12492:                     : mediaprocessor::setMode()               :     set mode ""
+10:45:30.788: (I) 12492:                     : Player::updateSlider                    :     Entering 'Change slider params (ClipToUse closed)'
+10:45:30.788: (I) 12492: ui.player           : Player::updateSlider()                  :       Current:   "Range: [-00:37.034..02:30.290], Trim: [00:01.371..00:10.385], Value: 00:01.371"
+10:45:30.788: (I) 12492: ui.player           : Player::updateSlider()                  :       Apply new: "Range: [00:00..00:07.927], Value: 00:00" Animate: false
+10:45:30.790: (I) 12492:                     : Player::updateSlider                    :     Leaving 'Change slider params (ClipToUse closed)'. Elapsed time: 2
+10:45:30.790: (I) 12492:                     : Player::updateClipsState                :   Leaving 'Update clips state'. Elapsed time: 2
+10:45:30.790: (I) 12492:                     : Player::onMainWindowPageChanged         : Leaving 'Change player mode. New: Normal, Prev: Trim'. Elapsed time: 3
+10:45:30.853: (I) 12076:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/66964/Videos/2021-12-29 14-35-41.mp4"
+10:45:30.869: (I) 12076:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/66964/Desktop/музыка для видео/semmmyq_Shinra_-_untitled_(musmore.com).mp3"
+10:45:31.899: (I) 12492: ui.player           : Player::onPlay()                        : Play: Clock: 00:00Slider: Range: [00:00..00:07.927], Value: 00:00, State: Player::Paused, Doc: Doc(??? ?????? 1, {b0aa0b4b-b8...)
+10:45:39.695: (I) 12492:                     : NativeWindowUtils::eventFilter()        : IceWindow(0x2b47bc4b020) WinId created: 0x18035a
+10:45:39.696: (I) 12492: ice.windowgeometry  : IceWindow::Private::onScreenChanged()   : IceWindow(0x2b47bc4b020) initial pixel ratio: 1 initial screen: QScreen(0x2b46f4639b0, name="\\\\.\\DISPLAY1")
+10:45:39.772: (I) 12076:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/66964/Videos/2021-12-29 14-35-41.mp4"
+10:45:41.940: (I) 12492: ui.player           : Player::onPause()                       : Pause: Clock: 00:01.74607265Slider: Range: [00:00..00:07.927], Value: 00:01.74201640, State: Player::Playing, Doc: Doc(??? ?????? 1, {b0aa0b4b-b8...)
+10:45:41.941: (I) 12492:                     : Player::onMainWindowPageChanged         : Entering 'Change player mode. New: Trim, Prev: Normal'
+10:45:41.941: (I) 12492:                     : Player::updateClipsState                :   Entering 'Update clips state'
+10:45:41.941: (I) 12492:                     : mediaprocessor::setMode()               :     set mode "{c001fa68-586e-42e2-93b0-c27a50785920}"
+10:45:41.942: (I) 12492:                     : Player::updateSlider                    :     Entering 'Change slider params (Apply ClipToUse)'
+10:45:41.942: (I) 12492: ui.player           : Player::updateSlider()                  :       Current:   "Range: [00:00..00:07.927], Value: 00:01.73303316"
+10:45:41.942: (I) 12492: ui.player           : Player::updateSlider()                  :       Apply new: "Range: [-00:38.405..02:28.919], Trim: [00:00..00:09.014], Value: 00:01.73303316" Animate: false
+10:45:41.944: (I) 12492:                     : Player::updateSlider                    :     Leaving 'Change slider params (Apply ClipToUse)'. Elapsed time: 2
+10:45:41.944: (I) 12492:                     : Player::updateClipsState                :   Leaving 'Update clips state'. Elapsed time: 2
+10:45:41.944: (I) 12492:                     : Player::onMainWindowPageChanged         : Leaving 'Change player mode. New: Trim, Prev: Normal'. Elapsed time: 3
+10:45:41.992: (I) 12076:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/66964/Desktop/музыка для видео/semmmyq_Shinra_-_untitled_(musmore.com).mp3"
+10:45:53.628: (I) 12492:                     : Player::onMainWindowPageChanged         : Entering 'Change player mode. New: Normal, Prev: Trim'
+10:45:53.628: (I) 12492: ui.player           : Player::maybeWriteTrim()                :   Request write trim changes into clip: [00:36.054..02:25.196] DocClip(Audio c001fa, pos: 00:00,  end: 00:09.014)
+10:45:53.628: (I) 12492:                     : Player::updateClipsState                :   Entering 'Update clips state'
+10:45:53.628: (I) 12492:                     : mediaprocessor::setMode()               :     set mode ""
+10:45:53.628: (I) 12492:                     : Player::updateSlider                    :     Entering 'Change slider params (ClipToUse closed)'
+10:45:53.628: (I) 12492: ui.player           : Player::updateSlider()                  :       Current:   "Range: [-00:38.405..02:28.919], Trim: [-00:02.351..00:03.723], Value: 00:03.722"
+10:45:53.628: (I) 12492: ui.player           : Player::updateSlider()                  :       Apply new: "Range: [00:00..00:07.927], Value: 00:06.073" Animate: false
+10:45:53.630: (I) 12492:                     : Player::updateSlider                    :     Leaving 'Change slider params (ClipToUse closed)'. Elapsed time: 1
+10:45:53.630: (I) 12492:                     : Player::updateClipsState                :   Leaving 'Update clips state'. Elapsed time: 2
+10:45:53.630: (I) 12492:                     : Player::onMainWindowPageChanged         : Leaving 'Change player mode. New: Normal, Prev: Trim'. Elapsed time: 2
+10:45:53.709: (I) 12076:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/66964/Videos/2021-12-29 14-35-41.mp4"
+10:45:53.720: (I) 12076:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/66964/Desktop/музыка для видео/semmmyq_Shinra_-_untitled_(musmore.com).mp3"
+10:45:54.675: (I) 12492: ui.player           : Player::onPlay()                        : Play: Clock: 00:06.073Slider: Range: [00:00..00:07.927], Value: 00:06.073, State: Player::Paused, Doc: Doc(??? ?????? 1, {b0aa0b4b-b8...)
+10:45:54.687: (I) 12076:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/66964/Desktop/музыка для видео/semmmyq_Shinra_-_untitled_(musmore.com).mp3"
+10:45:54.866: (I) 12492:                     : MainWindow::onMainClipChanged           : Entering 'Selected clip changed'
+10:45:54.866: (I) 12492: ui.mainwindow       : MainWindow::onMainClipChanged()         :   New selection is DocClip(Video 9f405a, pos: 00:00,  end: 00:07.927)
+10:45:54.866: (I) 12492: ui.proprerties      : ClipPropertiesWidget::setDocClip()      :   ClipProperties: change clip to DocClip(Video 9f405a, pos: 00:00,  end: 00:07.927)
+10:45:54.866: (I) 12492:                     : Player::setSelectedDocClip              :   Entering 'Change selected clip. New: DocClip(Video 9f405a, pos: 00:00,  end: 00:07.927), Prev: DocClip(Audio c001fa, pos: 00:00,  end: 00:06.074)'
+10:45:54.866: (I) 12492:                     : Player::updateClipsState                :     Entering 'Update clips state'
+10:45:54.867: (I) 12492:                     : mediaprocessor::setMode()               :       set mode ""
+10:45:54.867: (I) 12492:                     : Player::updateSlider()                  :       Slider params are not changed "Range: [00:00..00:07.927], Value: 00:06.12508541"
+10:45:54.867: (I) 12492:                     : Player::updateClipsState                :     Leaving 'Update clips state'. Elapsed time: 0
+10:45:54.867: (I) 12492:                     : Player::setSelectedDocClip              :   Leaving 'Change selected clip. New: DocClip(Video 9f405a, pos: 00:00,  end: 00:07.927), Prev: DocClip(Audio c001fa, pos: 00:00,  end: 00:06.074)'. Elapsed time: 0
+10:45:54.867: (I) 12492:                     : MainWindow::onMainClipChanged           : Leaving 'Selected clip changed'. Elapsed time: 0
+10:45:55.862: (W) 11912:                     : videoprocessor::getClipView()           : Can't get frame view for clip:  "{9f405a8e-d066-4dd4-aed6-268476ea9d5d}"
+10:45:55.863: (W) 11912:                     : videoprocessor::getClipView()           : Can't get frame view for clip:  "{9f405a8e-d066-4dd4-aed6-268476ea9d5d}"
+10:45:55.866: (W) 11912:                     : videoprocessor::getClipView()           : Can't get frame view for clip:  "{9f405a8e-d066-4dd4-aed6-268476ea9d5d}"
+10:45:55.874: (W) 11912:                     : videoprocessor::getClipView()           : Can't get frame view for clip:  "{9f405a8e-d066-4dd4-aed6-268476ea9d5d}"
+10:45:55.882: (W) 11912:                     : videoprocessor::getClipView()           : Can't get frame view for clip:  "{9f405a8e-d066-4dd4-aed6-268476ea9d5d}"
+10:45:55.890: (W) 11912:                     : videoprocessor::getClipView()           : Can't get frame view for clip:  "{9f405a8e-d066-4dd4-aed6-268476ea9d5d}"
+10:45:55.899: (W) 11912:                     : videoprocessor::getClipView()           : Can't get frame view for clip:  "{9f405a8e-d066-4dd4-aed6-268476ea9d5d}"
+10:45:55.906: (W) 11912:                     : videoprocessor::getClipView()           : Can't get frame view for clip:  "{9f405a8e-d066-4dd4-aed6-268476ea9d5d}"
+10:45:55.914: (W) 11912:                     : videoprocessor::getClipView()           : Can't get frame view for clip:  "{9f405a8e-d066-4dd4-aed6-268476ea9d5d}"
+10:45:55.922: (W) 11912:                     : videoprocessor::getClipView()           : Can't get frame view for clip:  "{9f405a8e-d066-4dd4-aed6-268476ea9d5d}"
+10:45:55.930: (W) 11912:                     : videoprocessor::getClipView()           : Can't get frame view for clip:  "{9f405a8e-d066-4dd4-aed6-268476ea9d5d}"
+10:45:55.939: (W) 11912:                     : videoprocessor::getClipView()           : Can't get frame view for clip:  "{9f405a8e-d066-4dd4-aed6-268476ea9d5d}"
+10:45:55.946: (W) 11912:                     : videoprocessor::getClipView()           : Can't get frame view for clip:  "{9f405a8e-d066-4dd4-aed6-268476ea9d5d}"
+10:45:55.954: (W) 11912:                     : videoprocessor::getClipView()           : Can't get frame view for clip:  "{9f405a8e-d066-4dd4-aed6-268476ea9d5d}"
+10:45:55.962: (W) 11912:                     : videoprocessor::getClipView()           : Can't get frame view for clip:  "{9f405a8e-d066-4dd4-aed6-268476ea9d5d}"
+10:45:55.971: (W) 11912:                     : videoprocessor::getClipView()           : Can't get frame view for clip:  "{9f405a8e-d066-4dd4-aed6-268476ea9d5d}"
+10:45:56.464: (I) 12076:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/66964/Desktop/музыка для видео/semmmyq_Shinra_-_untitled_(musmore.com).mp3"
+10:46:04.534: (I) 12492: ui.player           : Player::onPause()                       : Pause: Clock: 00:07.96506126Slider: Range: [00:00..00:07.927], Value: 00:07.91606543, State: Player::Playing, Doc: Doc(??? ?????? 1, {b0aa0b4b-b8...)
+10:46:04.589: (I) 12076:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/66964/Videos/2021-12-29 14-35-41.mp4"
+10:46:05.113: (I) 12492:                     : MainWindow::onMainClipChanged           : Entering 'Selected clip changed'
+10:46:05.113: (I) 12492: ui.mainwindow       : MainWindow::onMainClipChanged()         :   New selection is DocClip(Audio c001fa, pos: 00:00,  end: 00:06.074)
+10:46:05.113: (I) 12492: ui.proprerties      : ClipPropertiesWidget::setDocClip()      :   ClipProperties: change clip to DocClip(Audio c001fa, pos: 00:00,  end: 00:06.074)
+10:46:05.113: (I) 12492:                     : Player::setSelectedDocClip              :   Entering 'Change selected clip. New: DocClip(Audio c001fa, pos: 00:00,  end: 00:06.074), Prev: DocClip(Video 9f405a, pos: 00:00,  end: 00:07.927)'
+10:46:05.113: (I) 12492:                     : Player::updateClipsState                :     Entering 'Update clips state'
+10:46:05.113: (I) 12492:                     : mediaprocessor::setMode()               :       set mode ""
+10:46:05.113: (I) 12492:                     : Player::updateSlider()                  :       Slider params are not changed "Range: [00:00..00:07.927], Value: 00:07.926"
+10:46:05.113: (I) 12492:                     : Player::updateClipsState                :     Leaving 'Update clips state'. Elapsed time: 0
+10:46:05.113: (I) 12492:                     : Player::setSelectedDocClip              :   Leaving 'Change selected clip. New: DocClip(Audio c001fa, pos: 00:00,  end: 00:06.074), Prev: DocClip(Video 9f405a, pos: 00:00,  end: 00:07.927)'. Elapsed time: 0
+10:46:05.113: (I) 12492:                     : MainWindow::onMainClipChanged           : Leaving 'Selected clip changed'. Elapsed time: 0
+10:46:05.113: (I) 12492:                     : NativeWindowUtils::eventFilter()        : IceWindow(0x2b47baf1440) WinId created: 0x60334
+10:46:05.113: (I) 12492: ice.windowgeometry  : IceWindow::Private::onScreenChanged()   : IceWindow(0x2b47baf1440) initial pixel ratio: 1 initial screen: QScreen(0x2b46f4639b0, name="\\\\.\\DISPLAY1")
+10:46:05.169: (I) 12076:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/66964/Videos/2021-12-29 14-35-41.mp4"
+10:46:05.178: (I) 12076:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/66964/Desktop/музыка для видео/semmmyq_Shinra_-_untitled_(musmore.com).mp3"
+10:46:06.883: (I) 12492:                     : Player::onMainWindowPageChanged         : Entering 'Change player mode. New: Trim, Prev: Normal'
+10:46:06.884: (I) 12492:                     : Player::updateClipsState                :   Entering 'Update clips state'
+10:46:06.884: (I) 12492:                     : mediaprocessor::setMode()               :     set mode "{c001fa68-586e-42e2-93b0-c27a50785920}"
+10:46:06.884: (I) 12492:                     : Player::updateSlider                    :     Entering 'Change slider params (Apply ClipToUse)'
+10:46:06.884: (I) 12492: ui.player           : Player::updateSlider()                  :       Current:   "Range: [00:00..00:07.927], Value: 00:00"
+10:46:06.884: (I) 12492: ui.player           : Player::updateSlider()                  :       Apply new: "Range: [-00:36.054..02:31.270], Trim: [00:00..00:06.074], Value: 00:00" Animate: false
+10:46:06.886: (I) 12492:                     : Player::updateSlider                    :     Leaving 'Change slider params (Apply ClipToUse)'. Elapsed time: 1
+10:46:06.886: (I) 12492:                     : Player::updateClipsState                :   Leaving 'Update clips state'. Elapsed time: 2
+10:46:06.886: (I) 12492:                     : Player::onMainWindowPageChanged         : Leaving 'Change player mode. New: Trim, Prev: Normal'. Elapsed time: 2
+10:46:06.937: (I) 12076:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/66964/Desktop/музыка для видео/semmmyq_Shinra_-_untitled_(musmore.com).mp3"
+10:46:12.355: (I) 12492:                     : Player::onMainWindowPageChanged         : Entering 'Change player mode. New: Normal, Prev: Trim'
+10:46:12.355: (I) 12492: ui.player           : Player::maybeWriteTrim()                :   Request write trim changes into clip: [00:36.054..02:23.236] DocClip(Audio c001fa, pos: 00:00,  end: 00:06.074)
+10:46:12.355: (I) 12492:                     : Player::updateClipsState                :   Entering 'Update clips state'
+10:46:12.355: (I) 12492:                     : mediaprocessor::setMode()               :     set mode ""
+10:46:12.355: (I) 12492:                     : Player::updateSlider                    :     Entering 'Change slider params (ClipToUse closed)'
+10:46:12.355: (I) 12492: ui.player           : Player::updateSlider()                  :       Current:   "Range: [-00:36.054..02:31.270], Trim: [00:00..00:08.034], Value: 00:08.033"
+10:46:12.355: (I) 12492: ui.player           : Player::updateSlider()                  :       Apply new: "Range: [00:00..00:07.927], Value: 00:08.033" Animate: false
+10:46:12.357: (I) 12492:                     : Player::updateSlider                    :     Leaving 'Change slider params (ClipToUse closed)'. Elapsed time: 1
+10:46:12.357: (I) 12492:                     : Player::updateClipsState                :   Leaving 'Update clips state'. Elapsed time: 1
+10:46:12.357: (I) 12492:                     : Player::onMainWindowPageChanged         : Leaving 'Change player mode. New: Normal, Prev: Trim'. Elapsed time: 1
+10:46:12.394: (I) 12076:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/66964/Desktop/музыка для видео/semmmyq_Shinra_-_untitled_(musmore.com).mp3"
+10:46:17.435: (I) 12492: ui.player           : Player::onPlay()                        : Play from start: Clock: 00:08.033Slider: Range: [00:00..00:07.927], Value: 00:07.926, State: Player::Paused, Doc: Doc(??? ?????? 1, {b0aa0b4b-b8...)
+10:46:17.509: (I) 12076:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/66964/Videos/2021-12-29 14-35-41.mp4"
+10:46:17.518: (I) 12076:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/66964/Desktop/музыка для видео/semmmyq_Shinra_-_untitled_(musmore.com).mp3"
+10:46:25.883: (I) 12492: ui.player           : Player::onPause()                       : Pause: Clock: 00:07.95603209Slider: Range: [00:00..00:07.927], Value: 00:07.90708627, State: Player::Playing, Doc: Doc(??? ?????? 1, {b0aa0b4b-b8...)
+10:46:25.935: (I) 12076:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/66964/Videos/2021-12-29 14-35-41.mp4"
+10:46:25.946: (I) 12076:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/66964/Desktop/музыка для видео/semmmyq_Shinra_-_untitled_(musmore.com).mp3"
+10:46:32.106: (I) 12492: app.export          : Ui::exportCurrentDocument()             : Begin export
+10:46:32.107: (I) 12492: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {b0aa0b4b-b8b6-4582-a006-3d26bfadd7b4}'
+10:46:32.107: (I) 12492: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {b0aa0b4b-b8b6-4582-a006-3d26bfadd7b4}'. Elapsed time: 0
+10:46:32.198: (I) 12492:                     : NativeWindowUtils::eventFilter()        : IceWindow(0xc71cafb800, name="ExportDialog") WinId created: 0x30354
+10:46:32.198: (I) 12492: ice.windowgeometry  : IceWindow::Private::onScreenChanged()   : ExportDialog(0xc71cafb800) initial pixel ratio: 1 initial screen: QScreen(0x2b46f4639b0, name="\\\\.\\DISPLAY1")
+10:46:32.200: (I) 12492:                     : WinApi::maybeFixDwmNewQtWmNccalcsize()  : Custom margins applyed for QWindow QWidgetWindow(0x2b40793d2f0, name="ExportDialogWindow") QMargins(-8, -31, -8, -8) caption 23 dpr 1
+10:46:32.200: (I) 12492:                     : WinApi::maybeFixDwmNewQtWmNccalcsize()  : Custom margins are applyed for existing QPlatformWindow 0x2b407969470 QMargins(-8, -31, -8, -8) caption 23 dpr 1
+10:46:42.627: (I) 12492: app.export          : ExportDialog::Private::switchToProgressP: Switch to ExportProgress page
+10:46:42.627: (I) 11912:                     : dxresourcemanager::dumpUsage()          : Total resource allocated: count 4 size 8294400
+10:46:42.627: (I) 11912:                     : dxresourcemanager::dumpUsage()          : 	default type: count  3 size 6220800
+10:46:42.627: (I) 11912:                     : dxresourcemanager::dumpUsage()          : 	storage type: count  1 size 2073600
+10:46:42.627: (I) 11912:                     : dxresourcemanager::dumpUsage()          : 	input type: count  0 size 0
+10:46:42.627: (I) 11912:                     : dxresourcemanager::dumpUsage()          : In use resources: count 0 size 0
+10:46:42.627: (I) 11912:                     : dxresourcemanager::dumpUsage()          : 	default type: count  0 size 0
+10:46:42.627: (I) 11912:                     : dxresourcemanager::dumpUsage()          : 	storage type: count  0 size 0
+10:46:42.628: (I) 11912:                     : dxresourcemanager::dumpUsage()          : 	input type: count  0 size 0
+10:46:42.638: (I) 12052:                     : threadProc()                            : Encoder thread id:  12052
+10:46:42.638: (I) 12052:                     : threadProc()                            : --- start encoding thread ---
+10:46:42.638: (W) 12052:                     : QObject::startTimer: Timers cannot be started from another thread
+10:46:42.638: (I) 12052:                     : ThumbGenerator::freeResources()         : Release thumbnail generator resources
+10:46:42.669: (I) 12052:                     : dxresourcemanager::dumpUsage()          : Total resource allocated: count 0 size 0
+10:46:42.669: (I) 12052:                     : dxresourcemanager::dumpUsage()          : 	default type: count  0 size 0
+10:46:42.669: (I) 12052:                     : dxresourcemanager::dumpUsage()          : 	storage type: count  0 size 0
+10:46:42.669: (I) 12052:                     : dxresourcemanager::dumpUsage()          : 	input type: count  0 size 0
+10:46:42.669: (I) 12052:                     : dxresourcemanager::dumpUsage()          : In use resources: count 0 size 0
+10:46:42.669: (I) 12052:                     : dxresourcemanager::dumpUsage()          : 	default type: count  0 size 0
+10:46:42.669: (I) 12052:                     : dxresourcemanager::dumpUsage()          : 	storage type: count  0 size 0
+10:46:42.669: (I) 12052:                     : dxresourcemanager::dumpUsage()          : 	input type: count  0 size 0
+10:46:42.671: (I) 12052:                     : threadProc()                            : --- encoder context ---
+10:46:42.671: (I) 12052:                     : VideoProcessorContext::dumpContextState(: DX11 device [type 1]: true
+10:46:42.671: (I) 12052:                     : VideoProcessorContext::dumpContextState(: Effect processor:  true
+10:46:42.671: (I) 12052:                     : VideoProcessorContext::dumpContextState(: Text processor:  true
+10:46:42.671: (I) 12052:                     : VideoProcessorContext::dumpContextState(: Video processor:  true
+10:46:42.671: (I) 12052:                     : mediaprocessor::setDocument()           : Enter mediaprocessor setDocument():  Doc(Мой проект 1, {b0aa0b4b-b8...)
+10:46:42.671: (I) 12052:                     : audioprocessor::setDocument()           : audioprocessor setDocument():  Doc(Мой проект 1, {b0aa0b4b-b8...)
+10:46:42.671: (I) 12052:                     : mediaprocessor::setDocument()           : Process setDocument()
+10:46:42.671: (I) 12052:                     : mediaprocessor::setDocument()           : Leave mediaprocessor setDocument()
+10:46:42.671: (I) 12052:                     : threadProc()                            : encoding mediaprocessor init done
+10:46:42.671: (I) 12052:                     : threadProc()                            : output format:  mp4
+10:46:42.671: (I)  8044:                     : mediaprocessor::runVideo()              : change decoding engine to:  Decoding::Dx9
+10:46:42.671: (I) 12052:                     : threadProc()                            : quality:  4
+10:46:42.671: (I) 12052:                     : threadProc()                            : frame size:  "1920x1080"
+10:46:42.671: (I) 12052:                     : threadProc()                            : document duration:  79270000
+10:46:42.671: (I) 12052:                     : threadProc()                            : clip count:  1
+10:46:42.671: (I) 12052:                     : threadProc()                            : audio clip count:  1
+10:46:42.672: (I) 12052:                     : threadProc()                            : use audio loop:  false
+10:46:42.672: (I) 12052:                     : threadProc()                            : encoding starting - output  "C:/Users/66964/Desktop\\Клипбот.mp4"
+10:46:42.672: (I) 12052:                     : threadProc()                            : --- encoding parameters ---
+10:46:42.672: (I) 12052:                     : mfencoder::dumpSettings()               : use MF encoder
+10:46:42.672: (I) 12052:                     : mfencoder::dumpSettings()               : width:  1920
+10:46:42.672: (I) 12052:                     : mfencoder::dumpSettings()               : height:  1080
+10:46:42.672: (I) 12052:                     : mfencoder::dumpSettings()               : fps:  30
+10:46:42.672: (I) 12052:                     : mfencoder::dumpSettings()               : use hw:  false
+10:46:42.672: (I) 12052:                     : mfencoder::dumpSettings()               : video bitrate:  34836480
+10:46:42.672: (I) 12052:                     : mfencoder::dumpSettings()               : audio bitrate:  384000
+10:46:42.672: (I) 12052:                     : mfencoder::dumpSettings()               : sample rate:  48000
+10:46:42.672: (I) 12052:                     : mfencoder::dumpSettings()               : channels num:  2
+10:46:42.672: (I) 12052:                     : mfencoder::dumpSettings()               : channels mask:  3
+10:46:42.672: (I) 12052:                     : mfencoder::dumpSettings()               : audio format:  0
+10:46:42.672: (I) 12052:                     : mfencoder::dumpSettings()               : bits per sample:  16
+10:46:42.672: (I) 12052:                     : threadProc()                            : profile:  3
+10:46:42.698: (I)  2144:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/66964/Videos/2021-12-29 14-35-41.mp4"
+10:46:42.706: (I)  2144:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/66964/Desktop/музыка для видео/semmmyq_Shinra_-_untitled_(musmore.com).mp3"
+10:46:43.294: (I)  8044:                     : dxresourcemanager::dumpUsage()          : Total resource allocated: count 3 size 24883200
+10:46:43.294: (I)  8044:                     : dxresourcemanager::dumpUsage()          : 	default type: count  3 size 24883200
+10:46:43.294: (I)  8044:                     : dxresourcemanager::dumpUsage()          : 	storage type: count  0 size 0
+10:46:43.294: (I)  8044:                     : dxresourcemanager::dumpUsage()          : 	input type: count  0 size 0
+10:46:43.294: (I)  8044:                     : dxresourcemanager::dumpUsage()          : In use resources: count 1 size 8294400
+10:46:43.294: (I)  8044:                     : dxresourcemanager::dumpUsage()          : 	default type: count  1 size 8294400
+10:46:43.294: (I)  8044:                     : dxresourcemanager::dumpUsage()          : 	storage type: count  0 size 0
+10:46:43.294: (I)  8044:                     : dxresourcemanager::dumpUsage()          : 	input type: count  0 size 0
+10:46:43.312: (I)  8044:                     : dxresourcemanager::dumpUsage()          : Total resource allocated: count 4 size 33177600
+10:46:43.312: (I)  8044:                     : dxresourcemanager::dumpUsage()          : 	default type: count  3 size 24883200
+10:46:43.312: (I)  8044:                     : dxresourcemanager::dumpUsage()          : 	storage type: count  1 size 8294400
+10:46:43.312: (I)  8044:                     : dxresourcemanager::dumpUsage()          : 	input type: count  0 size 0
+10:46:43.312: (I)  8044:                     : dxresourcemanager::dumpUsage()          : In use resources: count 1 size 8294400
+10:46:43.312: (I)  8044:                     : dxresourcemanager::dumpUsage()          : 	default type: count  1 size 8294400
+10:46:43.312: (I)  8044:                     : dxresourcemanager::dumpUsage()          : 	storage type: count  0 size 0
+10:46:43.312: (I)  8044:                     : dxresourcemanager::dumpUsage()          : 	input type: count  0 size 0
+10:46:43.413: (I) 12052:                     : mfencoder::initVideoStream()            : MFENCODER: Video encoder found
+10:46:43.417: (I) 12052:                     : mfencoder::initAudioStream()            : MFENCODER: Audio encoder found
+10:46:43.421: (I) 12052:                     : threadProc()                            : encoder opened
+10:46:49.226: (I) 12052:                     : threadProc()                            : encoder closed
+10:46:49.285: (I) 12052:                     : threadProc()                            : shutdown encoding mediaprocessor
+10:46:49.338: (I) 12052:                     : threadProc()                            : checking encoding result...
+10:46:49.338: (I) 12492: app.export          : ExportDialog::Private::switchToDonePage(: Switch to ExportDone page
+10:46:49.403: (I) 12052:                     : threadProc()                            : encoding done
+10:46:49.403: (I) 12052:                     : dxresourcemanager::dumpUsage()          : Total resource allocated: count 4 size 33177600
+10:46:49.403: (I) 12052:                     : dxresourcemanager::dumpUsage()          : 	default type: count  3 size 24883200
+10:46:49.403: (I) 12052:                     : dxresourcemanager::dumpUsage()          : 	storage type: count  1 size 8294400
+10:46:49.403: (I) 12052:                     : dxresourcemanager::dumpUsage()          : 	input type: count  0 size 0
+10:46:49.403: (I) 12052:                     : dxresourcemanager::dumpUsage()          : In use resources: count 0 size 0
+10:46:49.403: (I) 12052:                     : dxresourcemanager::dumpUsage()          : 	default type: count  0 size 0
+10:46:49.403: (I) 12052:                     : dxresourcemanager::dumpUsage()          : 	storage type: count  0 size 0
+10:46:49.403: (I) 12052:                     : dxresourcemanager::dumpUsage()          : 	input type: count  0 size 0
+10:46:50.471: (I) 12492: app.export          : Ui::exportCurrentDocument()             : Export finished using "Open folder"
+10:46:53.053: (I) 12492: ui.mainwindow       : MainWindow::~MainWindow                 : Entering 'Delete main window'
+10:46:53.053: (I) 12492: ui.mainwindow       : MainWindow::~MainWindow                 : Leaving 'Delete main window'. Elapsed time: 0
+10:46:53.055: (I) 12492: ui.player           : Player::~Player                         : Entering 'Delete player'
+10:46:53.056: (I) 12492: ui.player           : Player::~Player                         : Leaving 'Delete player'. Elapsed time: 0
+10:46:53.111: (I) 12492:                     : dxresourcemanager::dumpUsage()          : Total resource allocated: count 0 size 0
+10:46:53.111: (I) 12492:                     : dxresourcemanager::dumpUsage()          : 	default type: count  0 size 0
+10:46:53.111: (I) 12492:                     : dxresourcemanager::dumpUsage()          : 	storage type: count  0 size 0
+10:46:53.111: (I) 12492:                     : dxresourcemanager::dumpUsage()          : 	input type: count  0 size 0
+10:46:53.111: (I) 12492:                     : dxresourcemanager::dumpUsage()          : In use resources: count 0 size 0
+10:46:53.111: (I) 12492:                     : dxresourcemanager::dumpUsage()          : 	default type: count  0 size 0
+10:46:53.111: (I) 12492:                     : dxresourcemanager::dumpUsage()          : 	storage type: count  0 size 0
+10:46:53.111: (I) 12492:                     : dxresourcemanager::dumpUsage()          : 	input type: count  0 size 0
+10:46:53.140: (I) 12492: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {b0aa0b4b-b8b6-4582-a006-3d26bfadd7b4}'
+10:46:53.141: (I) 12492: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {b0aa0b4b-b8b6-4582-a006-3d26bfadd7b4}'. Elapsed time: 0
+10:46:53.141: (I) 12492:                     : mediaimporter::~mediaimporter()         : Wait mediaimporter to release resources in 0 ms
+10:46:53.150: (I) 12492:                     : ThumbGenerator::~ThumbGenerator()       : Wait thumbgenerator to release resources in 0 ms
+10:46:53.150: (I) 12492:                     : ThumbGenerator::freeResources()         : Release thumbnail generator resources
+10:46:53.363: (I) 12492:                     : Application::~Application()             : App finished normally
+10:46:53.363: (I) 12492: ice.application     : IceApplication::~IceApplication()       : App is finished normally.
+10:46:53.388: (I) 12492:                     : MinHookHelper::~MinHookHelper()         : MH_Uninitialize OK
